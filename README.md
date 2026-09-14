@@ -2,7 +2,7 @@
 
 Repositorio que reúne el desarrollo práctico y experimental de los laboratorios del curso **CC5219 — Inteligencia Artificial Generativa y Multimodal**, impartido en el **Departamento de Ciencias de la Computación (DCC) de la Universidad de Chile**.
 
-* **Docente**: Valentin Barriere - [(@valbarriere)](https://github.com/valbarriere)
+* **Docente**: [(@valbarriere)](https://github.com/valbarriere) Valentin Barriere
 * **Repositorio original del curso**: https://github.com/valbarriere/CC5219-IA-Generativa-MModal/tree/master
 
 ## Contexto y Objetivos del Curso
