@@ -2,7 +2,7 @@
 
 Repositorio que reúne el desarrollo práctico y experimental de los laboratorios del curso **CC5219 — Inteligencia Artificial Generativa y Multimodal**, impartido en el **Departamento de Ciencias de la Computación (DCC) de la Universidad de Chile**.
 
-* **Docente**: @(Valentin Barriere)[valbarriere][https://github.com/valbarriere]
+* **Docente**: Valentin Barriere:[(@valbarriere)](https://github.com/valbarriere)
 * **Repositorio original del curso**: https://github.com/valbarriere/CC5219-IA-Generativa-MModal/tree/master
 
 ## Contexto y Objetivos del Curso
@@ -39,9 +39,9 @@ El objetivo central es la aplicación de la técnica de **Toonificación** (*Too
 
 * **¿Cómo se obtuvo?**: Se obtuvo a partir del vector latente final generado tras las 10 iteraciones del proceso de inversión. Se aplicó una manipulación vectorial en el espacio latente sumando desplazamientos controlados por un factor $\alpha$:
 
-  $$\mathbf{w}_{\text{editado}} = \mathbf{w}_{\text{final}} + \alpha \cdot \mathbf{v}_{\text{dirección}}$$
+  $\mathbf{w}_{\text{editado}} = \mathbf{w}_{\text{final}} + \alpha \cdot \mathbf{v}_{\text{dirección}}$
   
-donde $\mathbf{v}_{\text{dirección}}$ corresponde a vectores de dirección semántica precalculados para StyleGAN2 (`direction_age` y `direction_gender`). Luego, los vectores resultantes fueron decodificados por la red generadora para sintetizar las nuevas imágenes. La figura compara la imagen original frente a las variaciones generadas con alteración de edad (`Age`) y alteración de género (`Gender`).
+  donde $\mathbf{v}_{\text{dirección}}$ corresponde a vectores de dirección semántica precalculados para StyleGAN2 (`direction_age` y `direction_gender`). Luego, los vectores resultantes fueron decodificados por la red generadora para sintetizar las nuevas imágenes. La figura compara la imagen original frente a las variaciones generadas con alteración de edad (`Age`) y alteración de género (`Gender`).
 
 ---
 
